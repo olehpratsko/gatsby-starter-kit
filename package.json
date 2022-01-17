@@ -1,0 +1,24 @@
+{
+  "name": "gatsby-starter-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-starter-kit",
+  "author": "Oleh Pratsko",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.5.2",
+    "gatsby-plugin-postcss": "^5.5.0",
+    "postcss": "^8.4.5",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
