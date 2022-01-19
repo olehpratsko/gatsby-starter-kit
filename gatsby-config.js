@@ -4,6 +4,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "gatsby-starter-kit",
@@ -21,6 +28,9 @@ module.exports = {
         component: require.resolve(`./src/layout/Layout.jsx`),
       },
     },
-    "gatsby-plugin-postcss",
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-postcss`,
   ]
 }
