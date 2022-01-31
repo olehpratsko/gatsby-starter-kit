@@ -10,50 +10,44 @@
 }
 
 @layer components {
-  .typo-display {
-    @apply font-display font-semibold text-2xl md:text-4xl lg:text-6xl;
-  }
-
   .typo-h1 {
-    @apply font-display font-semibold text-2xl md:text-4xl lg:text-5xl;
+    @apply font-display text-2xl md:text-4xl lg:text-5xl font-semibold;
   }
 
   .typo-h2 {
-    @apply font-display font-semibold text-2xl md:text-3xl lg:text-4xl;
+    @apply font-display text-2xl md:text-3xl lg:text-4xl font-semibold;
   }
 
   .typo-h3 {
-    @apply font-display font-semibold text-2xl md:text-3xl;
+    @apply font-display text-2xl md:text-3xl font-semibold;
   }
 
   .typo-h4 {
-    @apply font-display font-semibold text-2xl;
+    @apply font-display text-2xl font-semibold;
   }
 
   .typo-h5 {
-    @apply font-display font-semibold text-lg uppercase antialiased;
+    @apply font-display text-lg font-semibold;
   }
 
   .typo-h6 {
-    @apply font-display font-semibold text-base;
+    @apply font-display text-base font-semibold;
   }
 
   .typo-blockquote {
-    @apply font-body text-lg lg:text-xl font-extralight;
-
-    line-height: 3rem;
+    @apply font-body text-lg lg:text-xl font-normal;
   }
 
   .typo-intro {
-    @apply font-semibold text-lg lg:text-xl font-extralight;
+    @apply font-body text-base font-semibold;
   }
 
   .typo-body {
-    @apply font-body text-base font-extralight leading-10;
+    @apply font-body text-base font-normal;
   }
 
-  .typo-p {
-    @apply font-body text-base font-light;
+  .typo-small {
+    @apply font-body text-sm font-normal;
   }
 
   /* Container */
@@ -87,74 +81,57 @@
     @apply px-4;
   }
 
-  @variants responsive {
-    .col-full {
-      @apply col flex-1/1 min-w-full;
-    }
+  .col-full {
+    @apply col flex-1/1 min-w-full;
+  }
 
-    .col-1 {
-      @apply col flex-1/12 min-w-1/12;
-    }
+  .col-1 {
+    @apply col flex-1/12 min-w-1/12;
+  }
 
-    .col-2 {
-      @apply col flex-2/12 min-w-2/12;
-    }
+  .col-2 {
+    @apply col flex-2/12 min-w-2/12;
+  }
 
-    .col-3 {
-      @apply col flex-3/12 min-w-3/12;
-    }
+  .col-3 {
+    @apply col flex-3/12 min-w-3/12;
+  }
 
-    .col-4 {
-      @apply col flex-4/12 min-w-4/12;
-    }
+  .col-4 {
+    @apply col flex-4/12 min-w-4/12;
+  }
 
-    .col-5 {
-      @apply col flex-5/12 min-w-5/12;
-    }
+  .col-5 {
+    @apply col flex-5/12 min-w-5/12;
+  }
 
-    .col-6 {
-      @apply col flex-6/12 min-w-6/12;
-    }
+  .col-6 {
+    @apply col flex-6/12 min-w-6/12;
+  }
 
-    .col-7 {
-      @apply col flex-7/12 min-w-7/12;
-    }
+  .col-7 {
+    @apply col flex-7/12 min-w-7/12;
+  }
 
-    .col-8 {
-      @apply col flex-8/12 min-w-8/12;
-    }
+  .col-8 {
+    @apply col flex-8/12 min-w-8/12;
+  }
 
-    .col-9 {
-      @apply col flex-9/12 min-w-9/12;
-    }
+  .col-9 {
+    @apply col flex-9/12 min-w-9/12;
+  }
 
-    .col-10 {
-      @apply col flex-10/12 min-w-10/12;
-    }
+  .col-10 {
+    @apply col flex-10/12 min-w-10/12;
+  }
 
-    .col-11 {
-      @apply col flex-11/12 min-w-11/12;
-    }
+  .col-11 {
+    @apply col flex-11/12 min-w-11/12;
   }
 }
 
 @layer utilities {
-  @variants responsive {
-    .perspective-origin-0 {
-      perspective: 1500px;
-      perspective-origin: 0;
-    }
-
-    .skew-thumbnail {
-      transform: rotateY(-35deg) rotateX(15deg);
-    }
-
-    .skew-thumbnail-rev {
-      transform: rotateY(15deg) rotateX(5deg);
-    }
-
-    .pb-full {
-      padding-bottom: 100%;
-    }
+  .pb-full {
+    padding-bottom: 100%;
   }
 }
