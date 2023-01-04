@@ -1,7 +1,6 @@
 {
   "name": "gatsby-starter-kit",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
   "description": "gatsby-starter-kit",
   "author": "Oleh Pratsko",
   "keywords": [
