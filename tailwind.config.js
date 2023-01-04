@@ -6,19 +6,19 @@ module.exports = {
     ],
     theme: {
         fontFamily: {
-            display: ['Open Sans', 'Helvetica', 'sans-serif'],
-            body: ['Open Sans', 'Helvetica', 'sans-serif'],
+            display: ['Helvetica', 'sans-serif'],
+            body: ['Helvetica', 'sans-serif'],
         },
         fontSize: {
-            xs: ['0.75rem',      '1.5'],
-            sm: ['0.875rem',     '1.5'],
-            base: ['1rem',       '1.5'],
-            lg: ['1.125rem',     '1.75'],
-            xl: ['1.25rem',      '1.75'],
-            '2xl': ['1.5rem',    '2'],
-            '3xl': ['1.875rem',  '2.5'],
-            '4xl': ['2.25rem',   '3'],
-            '5xl': ['3rem',      '3.5'],
+            xs: ['0.75rem', '1.5'],
+            sm: ['0.875rem', '1.5'],
+            base: ['1rem', '1.5'],
+            lg: ['1.125rem', '1.75'],
+            xl: ['1.25rem', '1.75'],
+            '2xl': ['1.5rem', '2'],
+            '3xl': ['1.875rem', '2.5'],
+            '4xl': ['2.25rem', '3'],
+            '5xl': ['3rem', '3.5'],
         },
         extend: {
             colors: {
