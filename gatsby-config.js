@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
+    title: "Gatsby project",
+    description: `This project is based on gatsby-starter-kit`,
+    author: `@username`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

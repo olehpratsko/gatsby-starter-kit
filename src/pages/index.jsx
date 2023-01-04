@@ -2,6 +2,8 @@ import { graphql, useStaticQuery } from 'gatsby';
 import * as React from "react";
 import { GatsbyImage as Image, getImage } from 'gatsby-plugin-image';
 
+import Seo from '../components/Seo';
+
 // markup
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -20,6 +22,9 @@ const IndexPage = () => {
 
   return (
     <>
+      <Seo
+        title="Home page"
+      />
       <div className="container-xl text-center">
         <div className="row">
           <div className="col-full">
