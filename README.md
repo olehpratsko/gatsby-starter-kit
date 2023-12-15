@@ -13,4 +13,5 @@ Basic Gatsby website starter. Cleaned up and configured.
 ## Production
 
 1. Build the project from source `npm run build`. The command runs `gatsby build` script which is powered by webpack.
+   To serve production build locally run: `npm run serve`
 2. Host generated `public` folder on any static hosting you prefer (Netlify, AWS).
