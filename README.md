@@ -9,3 +9,8 @@ Basic Gatsby website starter. Cleaned up and configured.
 3. Update `siteMetadata` values in the `gatsby-config.js` file.
 4. `npm i` to install dependencies.
 5. `npm start` to run development server.
+
+## Production
+
+1. Build the project from source `npm run build`. The command runs `gatsby build` script which is powered by webpack.
+2. Host generated `public` folder on any static hosting you prefer (Netlify, AWS).
